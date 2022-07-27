@@ -1,0 +1,82 @@
+.menu-main{
+    background-color: white;
+    font-size:50px;
+   
+    // border: 1px solid black;
+    // width: 10hw;
+    width: 800px;
+    
+    position: absolute;
+    left: 20px;
+    top:16vh;
+    z-index: 1;
+    scroll-behavior: smooth;
+
+
+}
+.sub-btn{
+    text-decoration: none;
+    background-color: rgb(129, 127, 127);
+    border:none;
+    border-bottom: 2px solid white;
+    width: 700px;
+    text-align: center;
+    padding-left: 25px;
+   cursor: pointer;
+   height: 80px;
+   margin-left: 23px;
+}
+.tsubcontainer{
+display: block;
+}
+
+.fsubcontainer{
+display:none;
+}
+.filtername1{
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    font-weight: bold;
+    // margin-left: 10px;
+}
+
+
+.sub-items{
+    display: flex;
+    flex-wrap: wrap;
+   align-items: center; 
+   height: 1vh;
+   font-style: sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+
+.menu-sub{
+    display: flex;
+    justify-content: space-around;
+}
+.submenu-item1{
+    // display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    font-size: 50px;
+    color: black;
+    width: 10%;
+    height: 10%;
+    padding: 5px;
+    font-weight: lighter;
+    font-style: sans-serif;
+    text-align: center;
+    margin-right: 10%;
+}
+.sublinks1{
+    // display: inline-block;
+       font-size: 25px;
+       font-style: sans-serif;
+}
+// .first{
+// margin-right: 10px;
+// }
