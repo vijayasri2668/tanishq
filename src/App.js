@@ -11,6 +11,7 @@ import Rings from './Pages/Rings/Rings';
 import Rivaah from './Pages/Rivaah/Rivaah';
 import Mia from './Pages/Mia/Mia';
 import Category from './Pages/Alljwellary/Category';
+import BreadCrumbApp from './Components/BreadCrumbs/BreadCrumb';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
     <div>
    <Router>
     <Navbar />
+    <BreadCrumbApp />
     <Routes>
      <Route path='/' element={<Alljwellary />} />
       <Route path='/Alljwellary' element={<Alljwellary />} />

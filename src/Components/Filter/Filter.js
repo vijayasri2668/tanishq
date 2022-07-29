@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-// import { AiOutlinePlus } from "react-icons/ai";
-// import { AiOutlineLine } from "react-icons/ai";
 import "./filter.css";
 import { Content } from "./Content";
 
@@ -19,11 +17,11 @@ const Filter = () => {
 
   return (
     
-    <div className="main-container1">
+    <div className="first-container">
 
-      <div className="sub-container1">
+      <div className="second-container">
 
-        <span className="filter-title"> Filter By</span>
+        <span className="titleoffilter"> Filter By</span>
       </div>
 
       <div>
@@ -33,8 +31,8 @@ const Filter = () => {
         {Content.map((item) => {
           return (
             <>
-            <div className="flex-container">
-              <div className="flex1">
+            <div className="thirdflex-container">
+              <div className="sub-flex">
                 <button
                   onClick={() =>
                     
@@ -45,12 +43,7 @@ const Filter = () => {
                 >
                   <span className="filternameone">{item.name} </span>
 
-                  {/* <span className="plus-minus">
-                     {
-                     drop[item.name] ? 
-                     (<AiOutlineLine />) : (<AiOutlinePlus />)
-                     }
-                  </span> */}
+                
                 </button>
 
               </div>
