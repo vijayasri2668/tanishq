@@ -34,6 +34,7 @@ background: none;
 width: 100%;
 cursor: pointer;
 border-bottom:#777 ;
+font-weight: bold;
 }
 .checkboxes{
     padding: 10px;
@@ -58,6 +59,7 @@ border-bottom:#777 ;
     text-align: start;
     font: 800 13px'Roboto',sans-serif;
     border-bottom:#777 ;
+    font-weight: bold;
 }
 .plus-minus{
     position: absolute;
